@@ -13,6 +13,6 @@ void modif()
 	cin >> b;
 	cin >> c;
 	cin >> d;
-	float x = (float)a * ((float)b + ((float)c/(float)d));
-	cout<< "Ответ: " << (float)x << endl;
+	float x = float(a) * (float(b) + (float(c)/float(d)));
+	cout<< "Ответ: " << x << endl;
 };
